@@ -1,11 +1,11 @@
-class Sushma:
+class Sushma: # Class
     location = "Itahari"  # Attribute
 
     def __init__(self, id):  # Constructor
         self.id = id  # Attribute
 
-    def slogan(self):
-        return "Best IT College"
+    def slogan(self): # Method
+        return "Best IT College" # Method output
 
 # Creating an instance of Sushma class
 godavari = Sushma(2)
