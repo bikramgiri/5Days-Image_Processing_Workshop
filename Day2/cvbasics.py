@@ -4,7 +4,7 @@
 import cv2
 
 # path
-path = r'./rajeshdai.jpg'
+path = r'rajeshdai.jpg'
 
 # Reading an image in default mode
 imageColor = cv2.imread(path)
@@ -48,13 +48,13 @@ imageB = cv2.imread(r'ORL(new)\s1\1.pgm',0)
 image3=cv2.resize(imageB,(50,50))
 cv2.imshow("2nd ORL image",image3)
 cv2.waitKey()
-print("2nd orl image") #2nd orl image
-print(type(image3)) #2nd orl image
-print(image3) #2nd orl image
+print("2nd orl image")
+print(type(image3))
+print(image3)
 
-print("shape of images") #shape of images
-print(image2.shape) #shape of images
-print(image3.shape) #shape of images
- 
+print("shape of images")
+print(image2.shape)
+print(image3.shape)
+
 # closing all open windows
 cv2.destroyAllWindows()

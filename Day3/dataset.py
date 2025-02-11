@@ -7,7 +7,7 @@ class dataset_class:
     def __init__(self, required_no):
 
         #Dataset Name
-        self.dir = ("./Images/ORL(old)")
+        self.dir = ("images/ORL")
 
         self.images_name_for_train = []
         self.target_name_as_array= []
