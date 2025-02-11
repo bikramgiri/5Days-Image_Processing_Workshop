@@ -1,3 +1,4 @@
+# Sum Finder Function:
 def sum(a, b):
       return a + b
 
